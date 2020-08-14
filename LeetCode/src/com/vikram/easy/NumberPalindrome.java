@@ -5,7 +5,7 @@ public class NumberPalindrome {
 		Integer num = 121;
 		System.out.println(isPalindrome(num));
 	}
-    public static boolean isPalindrome(int x) {
+    private static boolean isPalindrome(int x) {
         if (x<0) return false;
         int result = 0;
         int temp = x;

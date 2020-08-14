@@ -6,7 +6,7 @@ public class RomanToInteger {
 		System.out.println(romanToInt("MCMXCIV"));
 	}
 	
-    public static int romanToInt (String s) {
+    private static int romanToInt (String s) {
 			int result = 0;
 			for (int i = 0; i < s.length(); i++) {
 				if ((i == s.length()-1) || getValue(s.charAt(i)) >= getValue(s.charAt(i+1))) {

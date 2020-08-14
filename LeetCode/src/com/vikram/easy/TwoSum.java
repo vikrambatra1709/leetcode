@@ -7,7 +7,7 @@ public class TwoSum {
 		twoSumBrute(nums, 6);
 	}
 
-	public static int[] twoSumBrute(int[] nums, int target) {
+	private static int[] twoSumBrute(int[] nums, int target) {
 		int [] result = new int[2];
 		for (int i = 0; i < nums.length; i++) {
 			int f = nums[i];
